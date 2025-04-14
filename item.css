@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family:Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+body{
+    margin: 0 auto;
+    background-color:#CC2131;
+    color: white;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 0%;
+    z-index: 99;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    text-shadow: 3px 0 #620811,
+    -3px 0 #620811,
+     0 3px #620811,
+     0 -3px #620811,
+     2px 2px #620811,
+     -2px -2px #620811,
+     2px -2px #620811,
+     -2px 2px #620811;
+}
+
+nav ul li{
+    padding: 0 15px;
+    font-size: 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+.logo{
+    max-width: 100px;
+}
+
+.titulo h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 10px;
+    text-shadow: 3px 0 #620811,
+                -3px 0 #620811,
+                 0 3px #620811,
+                 0 -3px #620811,
+                 2px 2px #620811,
+                 -2px -2px #620811,
+                 2px -2px #620811,
+                 -2px 2px #620811;
+}
+
+.titulo h3{
+    text-align: center;
+    font-size: 4rem;
+    border: 3px #920e1c solid;
+ 
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-shadow: 3px 0 #920e1c,
+                -3px 0 #920e1c,
+                 0 3px #920e1c,
+                 0 -3px #920e1c,
+                 2px 2px #920e1c,
+                 -2px -2px #920e1c,
+                 2px -2px #920e1c,
+                 -2px 2px #920e1c;
+}
+
+.historia-clipe{
+    background-color: #980b19;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.historia-clipe p{
+    margin: 10px;
+    justify-content: center;
+}
+
+.historia-clipe h3{
+    margin: 10px;
+}
+
+.historia-clipe img{
+    margin: 10px; 
+    margin-bottom: 10px;  
+    max-width: 250px;
+}
+
+.performece{
+    background-color: #980b19;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.performece p{
+    margin: 10px;
+    justify-content: center;
+}
+
+.performece h3{
+    margin: 10px;
+}
+
+.performece img{
+    margin: 10px; 
+    margin-bottom: 10px;  
+    max-width: 250px;
+}
+
+
+.clipe div button{
+    font-size: 22px;
+    color: white;
+    border: none;
+    background-color: transparent;
+    margin-right: 30px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.clipe div button a{
+    font-size: 22px;
+    color: white;
+}
+
+.clipe{
+    background-color: #980b19;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clipe p{
+    margin: 10px;
+    justify-content: center;
+}
+
+.clipe h3{
+    margin: 10px;
+}
+
+.clipe img{
+    margin: 10px; 
+    margin-bottom: 10px;  
+    max-width: 350px;
+}

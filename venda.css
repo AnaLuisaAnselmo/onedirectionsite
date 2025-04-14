@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family:Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+body{
+    margin: 0 auto;
+    background-color:#CC2131;
+    color: white;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 0%;
+    z-index: 99;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    text-shadow: 3px 0 #620811,
+    -3px 0 #620811,
+     0 3px #620811,
+     0 -3px #620811,
+     2px 2px #620811,
+     -2px -2px #620811,
+     2px -2px #620811,
+     -2px 2px #620811;
+}
+
+nav ul li{
+    padding: 0 15px;
+    font-size: 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+.logo{
+    max-width: 100px;
+}
+
+.titulo h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 10px;
+    text-shadow: 3px 0 #620811,
+                -3px 0 #620811,
+                 0 3px #620811,
+                 0 -3px #620811,
+                 2px 2px #620811,
+                 -2px -2px #620811,
+                 2px -2px #620811,
+                 -2px 2px #620811;
+}
