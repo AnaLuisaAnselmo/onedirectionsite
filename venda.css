@@ -7,7 +7,7 @@
 
 
 .container{
-    max-width: 1400px;
+   
     margin: 0 auto;
     padding: 0 4%;
 }
@@ -16,7 +16,7 @@ body{
     margin: 0 auto;
     background-color:#CC2131;
     color: white;
-    display: flex;
+    
 }
 
 nav{
@@ -71,4 +71,47 @@ nav ul li a:hover{
                  -2px -2px #620811,
                  2px -2px #620811,
                  -2px 2px #620811;
+}
+
+.titulo h3{
+    text-align: center;
+    font-size: 4rem;
+    border: 3px #920e1c solid;
+    margin-top: 10px;
+    text-shadow: 3px 0 #620811,
+                -3px 0 #620811,
+                 0 3px #620811,
+                 0 -3px #620811,
+                 2px 2px #620811,
+                 -2px -2px #620811,
+                 2px -2px #620811,
+                 -2px 2px #620811;
+}
+
+
+.item-compra{
+    display: flex;
+    margin: 20px;
+    padding: 20px 30px;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.item-compra img{
+    margin: 10px; 
+    margin-bottom: 10px;  
+    max-width: 250px;
+    display: flex;
+    border: 3px #920e1c solid;
+}
+
+.card{
+    width: 200px;
+}
+
+.dvd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
