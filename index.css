@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family:Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+body{
+    margin: 0 auto;
+    background-color:#CC2131;
+    color: white;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 0%;
+    z-index: 99;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    text-shadow: 3px 0 #620811,
+    -3px 0 #620811,
+     0 3px #620811,
+     0 -3px #620811,
+     2px 2px #620811,
+     -2px -2px #620811,
+     2px -2px #620811,
+     -2px 2px #620811;
+}
+
+nav ul li{
+    padding: 0 15px;
+    font-size: 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+.logo{
+    max-width: 100px;
+}
+
+.titulo h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 10px;
+    text-shadow: 3px 0 #620811,
+                -3px 0 #620811,
+                 0 3px #620811,
+                 0 -3px #620811,
+                 2px 2px #620811,
+                 -2px -2px #620811,
+                 2px -2px #620811,
+                 -2px 2px #620811;
+}
+
+.texto-historia{
+  background-color: #980b19;
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-historia p{
+    margin: 10px;
+    justify-content: center;
+}
+
+.texto-historia h3{
+    margin: 10px;
+}
+
+.texto-historia img{
+    margin: 10px; 
+    margin-bottom: 10px;  
+    max-width: 250px;
+}
+
+.texto-premios{
+    background-color: #980b19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.texto-premios p{
+    margin: 10px;
+}
+
+.texto-premios h3{
+    margin: 10px;
+}
+
+.texto-premios img{
+    margin: 10px; 
+    margin-bottom: 10px;  
+    max-width: 350px;
+    
+}
+
+.texto-album{
+    background-color: #980b19;
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-album p{
+    margin: 10px;
+}
+
+.texto-album h3{
+    margin: 10px;
+}
+
+.texto-album img{
+    margin: 15px; 
+    margin-bottom: 10px;  
+    max-width: 250px;
+    
+}
+
+.texto-integrantes{
+    text-align: center;
+}
+
+.harry{
+    background-color: #980b19;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.harry img{
+    margin: 15px; 
+    margin-bottom: 10px;  
+    max-width: 250px;
+}
+
+.harry p{
+    margin: 10px;
+}
+
+.niall{
+    background-color: #980b19;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.niall img{
+    margin: 15px; 
+    margin-bottom: 10px;  
+    max-width: 250px;
+}
+
+.niall p{
+    margin: 10px;
+}
+
+.liam{
+    background-color: #980b19;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.liam img{
+    margin: 15px; 
+    margin-bottom: 10px;  
+    max-width: 250px;
+}
+
+.liam p{
+    margin: 10px;
+}
+
+.louis{
+    background-color: #980b19;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.louis img{
+    margin: 15px; 
+    margin-bottom: 10px;  
+    max-width: 250px;
+}
+
+.louis p{
+    margin: 10px;
+}
+
+.zany{
+    background-color: #980b19;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.zany img{
+    margin: 15px; 
+    margin-bottom: 10px;  
+    max-width: 250px;
+}
+
+.zany p{
+    margin: 10px;
+}
