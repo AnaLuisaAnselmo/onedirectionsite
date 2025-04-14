@@ -234,3 +234,16 @@ nav ul li a:hover{
 .zany p{
     margin: 10px;
 }
+
+.rodape {
+    background-color: #980b19;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+
+}
